@@ -854,3 +854,8 @@ print(map(add_one, list(range(10))))
 # (Pdb) output_values
 # [1, 2, 3, 4, 5]
 # (Pdb) q
+
+
+# TODO: Solid Python GitIgnore to work with
+# curl -o .gitignore https://raw.githubusercontent.com/githu
+# b/gitignore/master/Python.gitignore
