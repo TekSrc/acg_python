@@ -13,4 +13,12 @@ setup(
   long_descritipn_content_type='text/markdown',
   url="https://github.com/TekSrc/acg_python",
   packages=find_packages('src'),
-  )
+  package_dir={'': 'src'},
+  install_requires=['boto3'],
+  python_requires='>=3.6', # introduced syntax im using
+  entry_points={
+    'console_scripts': [
+      'pgbackup=pgbackup.cli:main'
+    ],
+  }
+)

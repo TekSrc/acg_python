@@ -28,3 +28,11 @@ def dump(url):
 # >>> f.close()
       
       # cat dump.sql
+
+def dump_file_name(url, timestamp=None):
+    db_name = url.split('/')[-1]
+    db_name = db_name.split('?')[0] # incase any query strings on there I don't want
+    if timestamp:
+        return f"{db_name}-{timestamp}.sql"
+    else:
+        return f"{db_name}.sql"
