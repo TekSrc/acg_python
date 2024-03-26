@@ -39,3 +39,10 @@ Follow these steps to start developing with this project:
 3. `cd` into the repository
 4. Activate virtualenv: `pipenv shell`
 5. Install dependencies: `pipenv install`
+
+git ignore from `https://github.com/github/gitignore`
+
+Handling arguments and flags:
+
+`https://docs.python.org/3/library/argparse.html`
+`https://acloudguru-content-attachment-production.s3-accelerate.amazonaws.com/1606848446436-CHAPTER%2010.1%20Project%20Setup.txt`
