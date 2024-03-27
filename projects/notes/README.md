@@ -17,3 +17,9 @@ sudo docker exec -i postgres psql postgres -U <user> -c "CREATE DATABASE notes;"
 
 // CREATE DATABASE
 ```
+
+```
+flask db init
+flask db migrate
+flask db upgrade
+```
